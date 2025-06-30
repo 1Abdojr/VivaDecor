@@ -1,0 +1,389 @@
+body {
+    font-family: Inter;
+    font-weight: 500;
+    color: #545454;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+            /* Nav */  
+
+nav ul{
+    width: 30rem;
+}
+
+nav ul li{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #545454;
+
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+.navbar-toggler i{
+    color: #1F1F1F;
+}
+
+            /* Home */  
+
+
+.home .left h2{
+    font-size: 105px;
+    line-height: 100%;
+    color: #1F1F1F;
+}
+
+.home .row .right img{
+    width: 100%;
+}
+
+.home .left p{
+    font-size: 18px;
+    line-height: 175%;
+}
+
+.home .analysize h3{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.home .analysize h6{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.home .projects{
+    width: 30rem;
+}
+
+.home .square{
+    width: 170px;
+    height: 170px;
+    border: 2px solid #1F1F1F;
+    border-radius: 2%;
+    position: absolute;
+    top:  -15%;
+    left: -5%;
+    z-index: -99;
+}
+
+.home .box{
+    width: 110px;
+    height: 110px;
+    background-color: #1F1F1F;
+    position: absolute;
+    bottom:  0%;
+    right: 10%;
+    z-index: 99;
+}
+
+.home .box i{
+    font-size: 55px;
+}
+
+            /* Services */  
+
+
+.title{
+    font-size: 48px;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+
+.services .line{
+    width: 80px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #1F1F1F;
+}
+
+.services .card img{
+    width: 62px;
+    height: 60px;
+}
+
+.services .card {
+    border: none;
+}
+
+
+.services .card h5{
+    font-size: 22px;
+    color: #1F1F1F;
+
+}
+
+.services .card p{
+    font-size: 14px;
+    line-height: 165%;
+}
+
+
+
+            /* Design */  
+
+
+.design .left img{
+    max-width: 90%;;
+}
+
+.design .right .line{
+    width: 100%;
+    height: 2px;
+    background-color: #DADADA;
+}
+
+.design .right h2{
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #1F1F1F;
+    letter-spacing: 0%;
+
+}
+
+.design .right p{
+    font-size: 18px;
+    line-height: 165%;
+    font-weight: 500;
+    letter-spacing: 0%;
+}
+
+.design .right .label{
+    color: #1F1F1F;
+}
+
+.design .right .label i{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.design .right .label h5{
+    font-size: 18px;
+    line-height: 165%;
+    font-weight: 600;
+}
+
+.design .right button{
+    background-color: #1F1F1F;
+    color: white;
+}
+
+
+
+            /* Design Process */  
+
+.process .right img{
+        max-width: 100%;
+}
+
+.process .left .steps{
+    gap:4rem;
+}
+
+.process .left .icons{
+    gap: 2rem;
+}
+
+.process .left .icon{
+    background-color: #1F1F1F;
+    border-radius: 50%;
+}
+
+.process .left .icons .line{
+    width: 2px;
+    height: 80px;
+    background-color: #9B9B9B;
+    
+}
+
+.process .left .text{
+    gap:3rem;
+}
+
+.process .left .text h4{
+    color: #1F1F1F;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.process .left .text p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+            /* Testimonials */  
+
+.testimonial .left img{
+    max-width: 90%;
+}
+
+.testimonial .left .arrows{
+    gap: 1rem;
+}
+
+.testimonial .left .arrows i{
+    background-color: #F1F1F1;
+}
+
+.testimonial .card{
+    width: 400px;
+    height: 400px;
+    background-color:#1F1F1F
+}
+
+.testimonial .right .card h2{
+    font-size: 100px;
+    height: 4rem;
+    font-weight: 500;
+}
+
+.testimonial .right .card p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 165%;
+}
+
+.testimonial .right .card img{
+    border-radius: 50%;
+}
+
+.testimonial .right .text h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.testimonial .right .text span{
+    font-size: 14px;
+    color: #929292;
+    font-weight: 500;
+}
+
+.testimonial .right .card-box {
+    background-color: white;
+    width: 80%;
+    left: -75%;
+    height: 100%;
+    border-radius: 1%;
+    position: absolute;
+}
+
+/* Testimonial For Tablest*/
+@media (max-width: 1201px) {
+  .testimonial .right .card-box {
+    position: static;
+    }
+
+  .testimonial .right .cards{
+    flex-direction: column;
+  }  
+}
+
+/* Testimonial For Mobiles*/
+@media (max-width: 767px) {
+  .testimonial .right .card-box {
+    position: static;
+    }
+
+  .testimonial .right .cards{
+    flex-direction: column;
+  }  
+}
+
+
+
+
+            /* Contact */  
+
+#Contact{
+    transform: translateY(25%);
+}    
+            
+#Contact button{
+    color: white;
+    background-color: #1F1F1F;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+    height: 80%;
+}
+
+#Contact .input-group{
+    box-shadow: 0 -18px 40px rgba(0,0,0,0.07);
+}
+
+/* Contact For mobiles*/
+@media (max-width: 767px) {             
+
+    #Contact .input {
+    padding: 1rem !important;
+  }
+  
+  #Contact button {
+    padding: 0.75rem 1rem !important;
+  } 
+}
+
+            /* Footer */  
+
+
+.footer{
+  background-color: #1F1F1F;
+  min-height: 80vh;
+  padding-bottom: 2rem;
+}
+
+.footer .container{
+  gap: 3rem;
+}
+
+.footer .text{
+  color: #D1D1D1;
+  font-size: 18px;
+  line-height: 151%;
+}
+
+.footer .social-icons{
+  gap: 2rem;
+}
+
+.footer .info li{
+  color: #D1D1D1;
+  font-size: 16px;
+}
+
+.footer .info .white-text{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Footer For mobiles*/
+@media (max-width: 767px) {
+  .footer {
+    height: auto;
+  }
+  
+  .brief, .info {
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+  }
+  
+  .social-icons {
+    justify-content: center;
+  }
+}
